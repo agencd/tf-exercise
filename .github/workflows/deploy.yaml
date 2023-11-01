@@ -1,9 +1,9 @@
 name: Run Terraform
 
 on:
-  push:
+  pull_request:
     branches:
-      - main
+      - main     
   workflow_dispatch:
 env:
   AWS_ACCESS_KEY_ID: ${{ secrets.MY_AWS_ACCESS_KEY_ID }}

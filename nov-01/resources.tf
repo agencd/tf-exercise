@@ -67,3 +67,4 @@ resource "aws_instance" "main" {
   }
 }
 
+#I am just making a note
